@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "SwiftTor",
-            targets: ["Tor"]),
+            targets: ["SwiftTor"]),
         .library(
             name: "Ctor",
             targets: ["Ctor"]),
