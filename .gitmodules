@@ -1,0 +1,3 @@
+[submodule "Sources/Ctor/tor"]
+	path = Sources/Ctor/tor
+	url = https://git.torproject.org/tor.git
