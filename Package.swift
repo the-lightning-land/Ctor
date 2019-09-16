@@ -9,9 +9,6 @@ let package = Package(
         .library(
             name: "Tor",
             targets: ["Tor"]),
-        .library(
-            name: "Ctor",
-            targets: ["Ctor"]),
     ],
     targets: [
         .target(
