@@ -1,5 +1,4 @@
 import XCTest
-
 import TorTests
 
 var tests = [XCTestCaseEntry]()

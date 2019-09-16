@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Tor",
+    name: "SwiftTor",
     products: [
         .library(
             name: "Tor",
