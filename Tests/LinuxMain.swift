@@ -1,6 +1,6 @@
 import XCTest
-import TorTests
+import SwiftTorTests
 
 var tests = [XCTestCaseEntry]()
-tests += TorTests.allTests()
+tests += SwiftTorTests.allTests()
 XCTMain(tests)

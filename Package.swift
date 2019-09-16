@@ -7,19 +7,22 @@ let package = Package(
     name: "SwiftTor",
     products: [
         .library(
-            name: "Tor",
+            name: "SwiftTor",
             targets: ["Tor"]),
+        .library(
+            name: "Ctor",
+            targets: ["Ctor"]),
     ],
     targets: [
         .target(
-            name: "Tor",
+            name: "SwiftTor",
             dependencies: [
                 "Ctor"
             ]),
         .systemLibrary(
             name: "Ctor"),
         .testTarget(
-            name: "TorTests",
-            dependencies: ["Tor"]),
+            name: "SwiftTorTests",
+            dependencies: ["SwiftTor"]),
     ]
 )
